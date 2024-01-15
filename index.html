@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body onload="cargaBody();">
+    <header>
+      <h1>SeguStore</h1>
+      <div class="container-icon">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="icon-cart"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z"
+          />
+        </svg>
+        <div class="count-product">
+          <span id="contador-productos">0</span>
+        </div>
+
+        <div class="container-cart-products hidden-cart">
+          <div class="cart-product">
+            <div class="info-cart-product">
+              <span class="cantidad-producto-carrito">1</span>
+              <p class="titulo-producto-carrito">Remera Salman</p>
+              <span class="precio-producto-carrito">$3000</span>
+            </div>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon-close"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          </div>
+          <div class="cart-total">
+            <h3>Total:</h3>
+            <span class="total-pagar">$10000</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="promocion">
+      <h3>Para compras de 3 unidades o mas 10% de descuento</h3><br>
+    </div>
+    <div class="container-items">
+      <div class="item">
+        <figure>
+          <img
+            src="https://unsplash.com/photos/FoF0w-d6Z74/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzA1MDk2OTY1fA&force=true&w=2400"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2>1:Remera Wild</h2>
+          <p class="price">$3000</p>
+          <button>Añadir</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="https://unsplash.com/photos/Hd4nlxLgIbA/download?force=true&w=2400"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2>2:Jeans Crug</h2>
+          <p class="price">$7000</p>
+          <button>Añadir</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="https://unsplash.com/photos/itUsEU7GgDU/download?force=true&w=2400"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2>3:Chomba Salman</h2>
+          <p class="price">$5000</p>
+          <button>Añadir</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1534445418105-b161f1aca589?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2>4:Falda Rusty</h2>
+          <p class="price">$3000</p>
+          <button>Añadir</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="https://unsplash.com/photos/Jf7JqVazm-4/download?force=true&w=2400"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2>5:Camisa Salman</h2>
+          <p class="price">$8000</p>
+          <button>Añadir</button>
+        </div>
+      </div>
+      <div class="item">
+        <figure>
+          <img
+            src="https://unsplash.com/photos/fwDlnTM_DJo/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTExfHxyb3BhfGVzfDB8fHx8MTcwNTA5MTM5Mnww&force=true&w=2400"
+            alt="producto"
+          />
+        </figure>
+        <div class="info-product">
+          <h2>6:Gorro Azul</h2>
+          <p class="price">$4000</p>
+          <button>Añadir</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
